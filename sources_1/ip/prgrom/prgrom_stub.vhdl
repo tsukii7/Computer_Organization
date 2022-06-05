@@ -1,10 +1,10 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
--- Date        : Thu Apr 21 09:20:07 2022
+-- Date        : Thu Jun  2 10:49:18 2022
 -- Host        : DESKTOP-KOBRUV5 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
---               d:/Xilinx_Vivado_SDK_2017.4_1216_1/projects/Project/COlab/COlab.srcs/sources_1/ip/prgrom/prgrom_stub.vhdl
+--               D:/Xilinx_Vivado_SDK_2017.4_1216_1/projects/Project/COlab/COlab.srcs/sources_1/ip/prgrom/prgrom_stub.vhdl
 -- Design      : prgrom
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a100tfgg484-1

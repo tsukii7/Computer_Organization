@@ -1,10 +1,10 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-// Date        : Thu Apr 28 08:26:42 2022
+// Date        : Thu Jun  2 05:22:13 2022
 // Host        : DESKTOP-KOBRUV5 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
-//               d:/Xilinx_Vivado_SDK_2017.4_1216_1/projects/Project/COlab/COlab.srcs/sources_1/ip/cpuclk/cpuclk_stub.v
+//               D:/Xilinx_Vivado_SDK_2017.4_1216_1/projects/Project/COlab/COlab.srcs/sources_1/ip/cpuclk/cpuclk_stub.v
 // Design      : cpuclk
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a100tfgg484-1

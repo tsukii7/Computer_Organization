@@ -1,10 +1,10 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
--- Date        : Thu Apr 28 08:26:42 2022
+-- Date        : Thu Jun  2 05:22:13 2022
 -- Host        : DESKTOP-KOBRUV5 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               d:/Xilinx_Vivado_SDK_2017.4_1216_1/projects/Project/COlab/COlab.srcs/sources_1/ip/cpuclk/cpuclk_sim_netlist.vhdl
+--               D:/Xilinx_Vivado_SDK_2017.4_1216_1/projects/Project/COlab/COlab.srcs/sources_1/ip/cpuclk/cpuclk_sim_netlist.vhdl
 -- Design      : cpuclk
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -69,11 +69,11 @@ clkout1_buf: unisim.vcomponents.BUFG
 plle2_adv_inst: unisim.vcomponents.PLLE2_ADV
     generic map(
       BANDWIDTH => "OPTIMIZED",
-      CLKFBOUT_MULT => 46,
+      CLKFBOUT_MULT => 41,
       CLKFBOUT_PHASE => 0.000000,
       CLKIN1_PERIOD => 10.000000,
       CLKIN2_PERIOD => 0.000000,
-      CLKOUT0_DIVIDE => 40,
+      CLKOUT0_DIVIDE => 41,
       CLKOUT0_DUTY_CYCLE => 0.500000,
       CLKOUT0_PHASE => 0.000000,
       CLKOUT1_DIVIDE => 1,

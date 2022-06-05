@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 2022/04/28 08:31:25
+// Create Date: 2022/06/01 20:47:29
 // Design Name: 
-// Module Name: cpuclk_tb
+// Module Name: clk_ip_tb
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,10 +19,22 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module cpuclk_tb( );
-reg clkin;
-wire clkout;
-cpuclk clk1( .clk_in1(clkin), .clk_out1(clkout) );
-initial clkin = 1'b0;
-always #5 clkin=~clkin;
+
+module clk_ip_tb(  );
+reg clk;
+wire clock;
+
+
+
+cpuclk cpuclk (
+.clk_in1(clk),
+.clk_out1(clock));
+
+
+always #5 clk = ~clk;
+initial begin
+    clk = 1'b0;
+  
+    #3000 $finish;
+end
 endmodule

@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 2022/04/21 08:29:13
+// Create Date: 2022/06/01 17:54:43
 // Design Name: 
-// Module Name: dmem32
+// Module Name: dmemory32
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,12 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module dmem32(readData, address,writeData,memWrite,clock);
+module dmemory32(readData, address,writeData,memWrite,clock);
     input clock; //Clock signal
     input memWrite;
     input [31 : 0] address;
     input [31 : 0] writeData;
     output [31 : 0] readData;
+    wire clk;
     // Part of dmemory32 module
     //Create a instance of RAM(IP core), binding the ports
     RAM ram (

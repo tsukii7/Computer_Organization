@@ -1,52 +1,8 @@
-set_property IOSTANDARD LVCMOS33 [get_ports fpga_clk]
-set_property IOSTANDARD LVCMOS33 [get_ports fpga_rst]
-set_property IOSTANDARD LVCMOS33 [get_ports start_pg]
-set_property PACKAGE_PIN Y18 [get_ports fpga_clk]
-set_property PACKAGE_PIN P20 [get_ports fpga_rst]
-set_property PACKAGE_PIN P1 [get_ports start_pg]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports rst]
 
-
-set_property IOSTANDARD LVCMOS33 [get_ports rx]
-set_property IOSTANDARD LVCMOS33 [get_ports tx]
-set_property PACKAGE_PIN Y19 [get_ports rx]
-set_property PACKAGE_PIN V18 [get_ports tx]
-
-
-set_property IOSTANDARD LVCMOS33 [get_ports {sel[0]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {sel[1]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {sel[2]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {sel[3]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {sel[4]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {sel[5]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {sel[6]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {sel[7]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {seg[0]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {seg[1]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {seg[2]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {seg[3]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {seg[4]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {seg[5]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {seg[6]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {seg[7]}]
-
-
-
-set_property PACKAGE_PIN A18 [get_ports {seg[7]}]
-set_property PACKAGE_PIN A20 [get_ports {seg[6]}]
-set_property PACKAGE_PIN B20 [get_ports {seg[5]}]
-set_property PACKAGE_PIN E18 [get_ports {seg[4]}]
-set_property PACKAGE_PIN F18 [get_ports {seg[3]}]
-set_property PACKAGE_PIN D19 [get_ports {seg[2]}]
-set_property PACKAGE_PIN E19 [get_ports {seg[1]}]
-set_property PACKAGE_PIN C19 [get_ports {seg[0]}]
-set_property PACKAGE_PIN E13 [get_ports {sel[7]}]
-set_property PACKAGE_PIN C15 [get_ports {sel[6]}]
-set_property PACKAGE_PIN C14 [get_ports {sel[5]}]
-set_property PACKAGE_PIN E17 [get_ports {sel[4]}]
-set_property PACKAGE_PIN F16 [get_ports {sel[3]}]
-set_property PACKAGE_PIN F14 [get_ports {sel[2]}]
-set_property PACKAGE_PIN F13 [get_ports {sel[1]}]
-set_property PACKAGE_PIN F15 [get_ports {sel[0]}]
+set_property PACKAGE_PIN Y18 [get_ports clk]
+set_property PACKAGE_PIN P20 [get_ports rst]
 
 
 
